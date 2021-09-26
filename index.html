@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВидеоСлайдер</title> 
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="video-slider">
+        <video src="video/cloud.mp4" id="video-slider" muted autoplay loop></video>
+        <ul class="video-thumb">
+            <li onclick="changeVideo('video/cloud.mp4')"><img src="video/cloud.jpg" alt=""></li>
+            <li onclick="changeVideo('video/islands.mp4')"><img src="video/islands.jpg" alt=""></li>
+            <li onclick="changeVideo('video/moon.mp4')"><img src="video/moon.jpg" alt=""></li>
+            <li onclick="changeVideo('video/star.mp4')"><img src="video/star.jpg" alt=""></li>
+        </ul>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
